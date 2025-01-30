@@ -9,7 +9,10 @@ The synthetic experiments introudced in Appendix D.1 validates the results prove
 This part is built on the repository of the paper Information Maximization Perspective of Orthogonal Matching Pursuit with Applications to Explainable AI, https://github.com/r-zip/ip-omp.git.
 
 ### Setup, Datasets and Preprocessing
-To onboard the project, one should follow the setup and data preprocessing instructions entailed in the readme file of https://github.com/r-zip/ip-omp.git. Specifically because of their size, one need to download ImageNet and Places365 by themselves, add them to the designated folder and run ip_omp.preprocess in order to run the later experiments.
+To onboard the project, one should:
+1. Download from https://github.com/r-zip/ip-omp.git and add clip_embedding_generation.py to its ip_omp folder.
+2. follow the setup and data preprocessing instructions entailed in the readme file of https://github.com/r-zip/ip-omp.git.
+3. Specifically because of their size, one need to download ImageNet and Places365 by themselves, add them to the designated folder and run ip_omp.preprocess in order to run the later experiments.
 
 ### Getting the CLIP concept/training/testing embedding.
 
